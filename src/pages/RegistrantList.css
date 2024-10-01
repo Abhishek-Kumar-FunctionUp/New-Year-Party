@@ -1,0 +1,53 @@
+.registrant-list {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .registrant-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+  }
+  
+  th {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  @media (max-width: 768px) {
+    .registrant-list {
+      padding: 15px;
+    }
+  
+    .registrant-list h1 {
+      font-size: 24px;
+    }
+  
+    th,
+    td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
